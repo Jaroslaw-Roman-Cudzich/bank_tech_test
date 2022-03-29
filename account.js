@@ -1,15 +1,17 @@
 class Account {
 
-    constructor(balance) {
+    constructor() {
         this.balance = 0
     };
 
     deposit(amount) {
-        return (this.balance += amount);
+        let depositAmount = (this.balance += amount);
+        return depositAmount;
     };
 
     withdrawal(amount) {
-        return (this.balance -= amount);
+        let withdrawalAmount = (this.balance -= amount);
+        return withdrawalAmount;
     };
 
     date() {
@@ -18,9 +20,5 @@ class Account {
     };
 
 };
-
-
-
-
 
 module.exports = Account;
