@@ -12,6 +12,11 @@ class Account {
         return (this.balance -= amount);
     };
 
+    date() {
+        const today = new Date();
+        return (today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear())
+    };
+
 };
 
 

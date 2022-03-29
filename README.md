@@ -22,14 +22,14 @@ I want to make a withdrawal of 500
 
 ~~~~
 As a user of my bank account
-So that I can see my transactions and balance
-I want to print my bank statement
+So that I can keep track of the date of my transactions
+I want the date of each transaction recorded
 ~~~~
 
 ~~~~
 As a user of my bank account
-So that I can keep track of the date of my transactions
-I want the date of each transaction recorded
+So that I can see my date specified transactions and final balance
+I want to print my bank statement
 ~~~~
 
 -------------------------------
