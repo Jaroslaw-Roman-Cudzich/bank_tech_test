@@ -1,8 +1,11 @@
+const Account = require('../../account.js');
+
 describe('Account', () => {
 
     describe('deposit', () => {
         it('adds an amount to the balance of the account', () => {
-        expect(deposit(2000, 1000).toBe(3000));
+        const account = new Account
+        expect(account.deposit(2000)).toEqual(2000);
       });
   });
 
