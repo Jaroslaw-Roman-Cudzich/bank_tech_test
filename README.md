@@ -1,5 +1,13 @@
 # Bank tech test
 
+## Purpose of the program
+
+~~~~
+The program deducts (withdraws) or adds (deposits) money from / into a bank account and displays these transactions with the date of when they have taken place in a statement format.
+~~~~
+
+----------------------------
+
 ## User Stories
 
 ~~~~
