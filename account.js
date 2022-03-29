@@ -8,6 +8,10 @@ class Account {
         return (this.balance += amount);
     };
 
+    withdrawal(amount) {
+        return (this.balance -= amount);
+    };
+
 };
 
 
