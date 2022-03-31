@@ -21,7 +21,7 @@ describe('Account', () => {
       const account = new Account();
       account.deposit(2000);
       const today = new Date();
-      expect(account.date()).toEqual("29/3/2022");
+      expect(account.date()).toEqual("31/3/2022");
     });
   });
 
